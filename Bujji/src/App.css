@@ -309,6 +309,8 @@ button {
 
 .edit-input {
   width: 70vmax;
+  font-family: sans-serif;
+  font-size: 0.8em;
 }
 
 /* Layout */
