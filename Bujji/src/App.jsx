@@ -80,7 +80,7 @@ const App = () => {
 
     try {
       // Send the question to the backend (Flask)
-      const response = await axios.post("http://localhost:5000/get_response", {
+      const response = await axios.post("https://bujji-xroz.onrender.com/get_response", {
         question: question,
       });
       
@@ -120,7 +120,7 @@ const App = () => {
 
     try {
       // Send the updated question to the backend to get the new response
-      const response = await axios.post("http://localhost:5000/get_response", {
+      const response = await axios.post("https://bujji-xroz.onrender.com/get_response", {
         question: updatedQuestion,
       });
 
